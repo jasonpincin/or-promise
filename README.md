@@ -1,8 +1,8 @@
 # or-promise
 
-[![NPM version](https://badge.fury.io/js/afterward.png)](http://badge.fury.io/js/afterward)
-[![Build Status](https://travis-ci.org/jasonpincin/afterward.svg?branch=master)](https://travis-ci.org/jasonpincin/afterward)
-[![Coverage Status](https://coveralls.io/repos/jasonpincin/afterward/badge.png?branch=master)](https://coveralls.io/r/jasonpincin/afterward?branch=master)
+[![NPM version](https://badge.fury.io/js/or-promise.png)](http://badge.fury.io/js/or-promise)
+[![Build Status](https://travis-ci.org/jasonpincin/or-promise.svg?branch=master)](https://travis-ci.org/jasonpincin/or-promise)
+[![Coverage Status](https://coveralls.io/repos/jasonpincin/or-promise/badge.png?branch=master)](https://coveralls.io/r/jasonpincin/or-promise?branch=master)
 
 Accept a callback OR return a promise (easily).
 
