@@ -14,6 +14,9 @@ const orPromise = require('or-promise')
 function greetSoon (cb) {
     cb = orPromise(cb)
     setImediate(cb, null, 'hello')
+
+    // this will return undefined if cb was provided, otherwise
+    // it will return a promise
     return cb.promise
 }
 
