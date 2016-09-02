@@ -1,0 +1,52 @@
+{
+  "name": "or-promise",
+  "version": "0.0.0",
+  "description": "Easily support returning a promise when a callback is omitted",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonpincin/or-promise.git"
+  },
+  "keywords": [
+    "promise",
+    "callback"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonpincin/or-promise/issues"
+  },
+  "homepage": "https://github.com/jasonpincin/or-promise",
+  "author": {
+    "name": "Jason Pincin",
+    "email": "jason@pincin.com",
+    "url": "http://jason.pincin.com/"
+  },
+  "contributors": [],
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "global": "~4.3.0",
+    "lower-standard": "~8.0.0-1",
+    "nyc": "~8.1.0",
+    "opn": "~1.0.2",
+    "phantomjs": "~2.1.7",
+    "promise-polyfill": "~6.0.2",
+    "snazzy": "~4.0.1",
+    "tape": "~4.6.0",
+    "zuul": "~3.11.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "nyc -r html -r text npm run -s faucet && npm run -s lint && npm run -s check-cover",
+    "test-nocover": "npm run -s faucet && npm run -s lint",
+    "travis-test": "nyc npm run -s tap && npm run -s coveralls",
+    "browser-test": "zuul -- test/*.js",
+    "faucet": "tape test/*.js | faucet",
+    "tap": "tape test/*.js",
+    "phantom": "zuul --phantom -- test/*.js | faucet",
+    "lint": "standard | snazzy",
+    "check-cover": "nyc check-coverage --lines 100 --functions 100 --branches 100",
+    "coveralls": "((nyc report --reporter=text-lcov | coveralls) || exit 0)",
+    "view-cover": "nyc report --reporter=text",
+    "open-cover": "opn coverage/index.html"
+  }
+}

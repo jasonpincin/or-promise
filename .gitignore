@@ -1,0 +1,5 @@
+*.log
+nohup.out
+coverage
+node_modules
+.nyc_output
