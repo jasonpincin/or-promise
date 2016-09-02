@@ -1,6 +1,6 @@
 {
   "name": "or-promise",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Easily support returning a promise when a callback is omitted",
   "main": "index.js",
   "repository": {
