@@ -3,9 +3,8 @@
 [![NPM version](https://badge.fury.io/js/or-promise.png)](http://badge.fury.io/js/or-promise)
 [![Coverage Status](https://coveralls.io/repos/jasonpincin/or-promise/badge.png?branch=master)](https://coveralls.io/r/jasonpincin/or-promise?branch=master)
 [![Build Status](https://travis-ci.org/jasonpincin/or-promise.svg?branch=master)](https://travis-ci.org/jasonpincin/or-promise)
-[![Build Status](https://saucelabs.com/buildstatus/jp-project14)](https://saucelabs.com/beta/builds/e4bca03b508c4eeb848f3986a61dd97f)
-
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/jp-project14.svg)](https://saucelabs.com/beta/builds/e4bca03b508c4eeb848f3986a61dd97f)
+[![Sauce Test Status](https://saucelabs.com/buildstatus/jp-project14)](https://saucelabs.com/u/jp-project14)
+[![Sauce Test Matrix](https://saucelabs.com/browser-matrix/jp-project14.svg)](https://saucelabs.com/u/jp-project14)
 
 Accept a callback OR return a promise (easily).
 
